@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bgColor changer</title>
+</head>
+<style>
+    .container {
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    p{
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .button {
+        height: 100px;
+        width: 100px;
+        border: 1px black solid;
+    }
+
+    #grey {
+        background-color: grey;
+    }
+
+    #purple {
+        background-color: purple;
+    }
+
+    #blue {
+        background-color: blue;
+    }
+
+    #white {
+        background-color: white;
+    }
+    #green {
+        background-color: green;
+    }
+    #aqua {
+        background-color: aqua;
+    }
+    #yellow {
+        background-color: yellow;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <p>click to change the background-color</p>
+        <div>
+            <button title="btn" class="button" id="grey"></button>
+            <button title="btn" class="button" id="white"></button>
+            <button title="btn" class="button" id="blue"></button>
+            <button title="btn" class="button" id="purple"></button>
+            <button title="btn" class="button" id="green"></button>
+            <button title="btn" class="button" id="aqua"></button>
+            <button title="btn" class="button" id="yellow"></button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
