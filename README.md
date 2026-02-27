@@ -84,9 +84,4 @@ Change the background color by clicking buttons.
 - Work with keyboard and mouse events
 - Improve JavaScript fundamentals
 - Practice event handling
-
----
-
-## 📂 How to Run
-
-1. Clone the repository:
+  
